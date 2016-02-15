@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>airplane</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="canvas-wrap">
+        <div id="canvas1">
+            <div class="cloud">
+                <span class="icon-cloud cloud01"></span>
+                <span class="icon-cloudy cloud02"></span>
+                <span class="icon-cloud cloud03"></span>
+                <span class="icon-cloudy cloud04"></span>
+            </div>
+            <div id="game-count">
+                <span class="gc-item">Score:
+                    <b id="score"></b>
+                </span>
+            </div>
+            <div id="game">
+                <div id="bullet-control"></div>
+                <div id="plane-control"><span class="icon-plane"></span></div>
+            </div>
+            <div id="game-ready" class="game-popup">
+                <div class="gr-con">
+                    <p id="pop-text"></p>
+                    <div id="btn-start" class="button">Start</div>
+                    <div id="btn-how" class="button">How to play</div>
+                </div>
+            </div>
+            <div id="game-result" class="game-popup">
+                <div class="gr-con">
+                    <span id="gr-text"></span>
+                    <span class="gr-gameinfo">Your total score is <span id="gr-score"></span></span>
+                </div>
+                <div id="btn-finish" class="button">Finish</div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

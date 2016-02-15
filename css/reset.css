@@ -1,0 +1,26 @@
+/*reset*/
+html,body,div,ul,li,ol,dl,dt,dd,p,input,table,td,tr,h1,h2,h3,h4,h5,h6,form{
+	margin:0;
+	padding:0;}
+img ,img a{
+	border:none;}
+body{
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;}
+ul,ol{
+	list-style-type:none;}
+a ,a:hover{
+	text-decoration:none;
+	cursor:pointer;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+* html .clearfix {zoom: 1;}
+input,textarea,select{border:none;background:none;outline:none;}
+/*reset*/
